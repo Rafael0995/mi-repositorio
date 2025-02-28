@@ -3,7 +3,7 @@ def insertion_sort(arr):
         key = arr[i]  
         j = i - 1  
         
-        
+        gi
         while j >= 0 and arr[j] > key:
             arr[j + 1] = arr[j]
             j -= 1
